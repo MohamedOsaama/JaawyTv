@@ -17,7 +17,7 @@ public class Test_Kuwait extends BaseTest {
 
         eyes.setBatch("Kuwait Tests");
         eyes.openEyes(driver, "Kuwait  Tests");
-        mainHeader.ChangeCountry();
+        mainHeader.changeCountry();
         eyes.checkWindow("Before Change country", false);
         countryModal.select("kuwait");
     }

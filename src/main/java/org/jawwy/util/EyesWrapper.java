@@ -39,7 +39,6 @@ public class EyesWrapper {
         eyes = new Eyes(runner);
         configuration = new Configuration();
         startedAt = Calendar.getInstance();
-
         setConfig();
         eyes.setConfiguration(configuration);
 
@@ -120,22 +119,6 @@ public class EyesWrapper {
 
         }
     }
-
-
-
-
-    /**
-     * @ param, locator, element name
-     */
-
-    public void validateElement(By locator) {
-        eyes.checkElement(locator);
-        eyes.close();
-    }
-
-
-
-
 }
 
 

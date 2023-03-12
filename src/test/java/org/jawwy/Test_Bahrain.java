@@ -16,7 +16,7 @@ public class Test_Bahrain extends BaseTest {
     public void BeforeTest() {
         eyes.setBatch("Bahrain Tests");
         eyes.openEyes(driver, "Bahrain  Tests");
-        mainHeader.ChangeCountry();
+        mainHeader.changeCountry();
         eyes.checkWindow("Before Change country", false);
             countryModal.select("Bahrain");
     }
